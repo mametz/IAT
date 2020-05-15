@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://raw.githubusercontent.com/mametz/IAT/master/quiat8.js'], function(APIConstructor, iatExtension){
 	var API = new APIConstructor();
 
 	var posWords = API.shuffle([
